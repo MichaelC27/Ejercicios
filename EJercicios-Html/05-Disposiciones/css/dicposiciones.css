@@ -1,0 +1,6 @@
+.img1, .img2 , .img3, .img4, .img5{
+    display: flex;
+    flex-direction: column;
+    margin: 300px;
+    flex-wrap: wrap;
+}
