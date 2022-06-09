@@ -4,5 +4,11 @@
 .button:hover {
     color: rgb(255, 255, 255);
     background-color: green;
-    content: hola;
+}
+
+.button::before {
+    content: "Pasa por encima"
+}
+.button:hover::before {
+    content: "¡Hecho!"
 }
